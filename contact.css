@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #333; 
+}
+
+.navbar a {
+    color: white; 
+}
+
+.navbar a:hover {
+    color: #FFD700; 
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+aside {
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+.star {
+    font-size: 30px;
+    cursor: pointer;
+    color: gray;
+}
+
+body.night-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+body.night-theme .menu-item {
+    background-color: #555;
+}
