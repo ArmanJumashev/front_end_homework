@@ -129,12 +129,16 @@
 
             <div class="col-lg-4">
                 <p>Change Background Color</p>
-                <button id="changeBackgroundColor" class="btn btn-primary">color switch</button>
+                <div class="btn-container">
+                    <button id="changeBackgroundColor" class="btn btn-primary">Color Switch</button>
+                </div>
             </div>
 
             <div class="col-lg-4">
                 <h2>Subscribe</h2>
-                <button id="openSubscribeForm" class="btn btn-secondary">Subscribe</button>
+                <div class="btn-container">
+                    <button id="openSubscribeForm" class="btn btn-secondary">Subscribe</button>
+                </div>
 
                 <div id="popupSubscribeForm" class="popup">
                     <div class="form-container">
@@ -143,28 +147,31 @@
                                 <label for="subscribe-email">Email:</label>
                                 <input type="email" class="form-control" id="subscribe-email" name="subscribe-email" required>
                             </div>
-                            <button type="submit" class="btn btn-secondary btn-lg">Subscribe</button>
+                            <div class="btn-container">
+                                <button type="submit" class="btn btn-secondary btn-lg">Subscribe</button>
+                                <button id="closeSubscribeForm" class="btn btn-danger">Close</button>
+                            </div>
                         </form>
-                        <button id="closeSubscribeForm" class="btn btn-danger">Close</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
-
     <div class="container d-flex flex-column align-items-center justify-content-center menu-item">
         <div class="content">
             <p>This is some content. <span class="additional-content" style="display:none;">Here is additional content!</span></p>
             <button id="read-more" class="btn btn-primary">Read More</button>
         </div>
-        
-        <button id="show-time" class="btn btn-secondary mt-3">Show Current Time</button>
-        <div id="time-display" class="mt-2"></div>
-        
-                
-        <button id="play-sound" class="btn btn-success mt-3">Play Sound</button>       
+
+        <div class="btn-container mt-3">
+            <button id="show-time" class="btn btn-secondary">Show Current Time</button>
+            <div id="time-display" class="mt-2"></div>
+        </div>
+
+        <div class="btn-container mt-3">
+            <button id="play-sound" class="btn btn-success">Play Sound</button>
+        </div>
     </div>
 
     <footer>
